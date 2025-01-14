@@ -1,0 +1,319 @@
+{
+  "poolHost": "wagpool.deepminerz.com",
+  "poolIdent": "UK",
+  "coin": "WagLayla",
+  "symbol": "WALA",
+  "coinUnits": 1000000000,
+  "coinDecimalPlaces": 9,
+  "coinDifficultyTarget": 120,
+  "blockchainExplorer": "https://explorer.waglayla.com/blocks/{id}",
+  "transactionExplorer": "https://explorer.waglayla.com/txs/{id}",
+
+  "daemonType": "default",
+  "cnAlgorithm": "walahash",
+  "cnVariant": 0,
+  "cnBlobType": 1,
+  
+  "walaserviceIp": "127.0.0.1",
+  "walaservicePort": 8045,
+  "logging": {
+      "files": {
+          "level": "info",
+          "directory": "logs-wala",
+          "flushInterval": 5
+      },
+      "console": {
+          "level": "info",
+          "colors": true
+      }
+  },
+  "hashingUtil": true,
+  "childPools": null,
+  "poolServer": {
+      "enabled": true,
+"mergedMining": false,
+      "clusterForks": "auto",
+      "poolAddress": "waglayla:qqwclrhcwtp6sv2yhxyt96v82hzp8tcag59wzcrf97axwast9sf4qfyk0cul3",
+      "intAddressPrefix": null,
+      "blockRefreshInterval": 250,
+      "minerTimeout": 600,
+      "sslCert": "/etc/letsencrypt/live/wagpool.deepminerz.com/cert.pem",
+      "sslKey": "/etc/letsencrypt/live/wagpool.deepminerz.com/privkey.pem",
+      "sslCA": "/etc/letsencrypt/live/wagpool.deepminerz.com/fullchain.pem",
+      "ports": [
+          {
+              "port": 3334,
+              "difficulty": 2,
+              "desc": "Individual Miners ( 0-3 GH/s )"
+          },
+          {
+              "port": 4445,
+              "difficulty": 14,
+              "desc": "Small Farms ( 15-20 GH/s )"
+          },
+          {
+              "port": 5556,
+              "difficulty": 64,
+              "desc": "Medium-Large Farms ( > 100 GH/s )"
+          },
+          {
+              "port": 9850,
+              "difficulty": 14,
+              "desc": "SSL port - All Miners",
+              "ssl": true
+          },
+          {
+              "port": 19850,
+              "difficulty": 64,
+              "desc": "Alternative Medium-Large Farms"
+          }
+      ],
+      "varDiff": {
+          "minDiff": 1,
+          "maxDiff": 100000000,
+          "targetTime": 10,
+          "retargetTime": 10,
+          "variancePercent": 30,
+          "maxJump": 100
+      },
+      "paymentId": {
+          "addressSeparator": "."
+      },
+"separators": [{"value":"+","desc":"plus"}, {"value":".","desc":"dot"}],
+      "fixedDiff": {
+          "enabled": true,
+          "addressSeparator": "+"
+      },
+      "shareTrust": {
+          "enabled": false,
+          "min": 10,
+          "stepDown": 3,
+          "threshold": 10,
+          "penalty": 30
+      },
+      "banning": {
+          "enabled": false,
+          "time": 120,
+          "invalidPercent": 80,
+          "checkThreshold": 30
+      },
+      "slushMining": {
+          "enabled": false,
+          "weight": 300,
+          "blockTime": 60,
+          "lastBlockCheckRate": 1
+       }
+  },
+
+  "payments": {
+      "enabled": true,
+      "interval": 7200,
+      "maxAddresses": 250,
+      "mixin": 0,
+      "priority": 0,
+      "transferFee": 1000000,
+      "dynamicTransferFee": true,
+      "minerPayFee" : true,
+      "minPayment": 1000000000,
+      "maxPayment": 20000000000000,
+      "maxTransactionAmount": 30000000000000,
+      "denomination": 10000000
+  },
+
+  "blockUnlocker": {
+      "enabled": true,
+      "interval": 30,
+      "depth": 60,
+      "poolFee": 0.5,
+      "finderReward": 0.25,
+      "devDonation": 0.1,
+      "networkFee": 0.00015,
+      "fixBlockHeightRPC": false
+  },
+
+  "api": {
+      "enabled": true,
+      "hashrateWindow": 600,
+      "updateInterval": 5,
+      "bindIp": "198.244.169.253",
+      "port": 8075,
+      "blocks": 30,
+      "payments": 30,
+      "password": "******",
+      "ssl": true,
+      "sslPort": 8076,
+      "sslCert": "/etc/letsencrypt/live/wagpool.deepminerz.com/cert.pem",
+      "sslKey": "/etc/letsencrypt/live/wagpool.deepminerz.com/privkey.pem",
+      "sslCA": "/etc/letsencrypt/live/wagpool.deepminerz.com/fullchain.pem",
+      "trustProxyIP": true
+  },
+
+  "daemon": {
+      "host": "127.0.0.1",
+      "port": 12110
+  },
+
+  "wallet": {
+      "host": "127.0.0.1",
+      "port": 13110
+  },
+
+  "redis": {
+      "host": "127.0.0.1",
+      "port": 6379,
+      "auth": "**********",
+      "db": 0,
+      "cleanupInterval": 90
+  },
+
+  "notifications": {
+      "emailTemplate": "email_templates/default.txt",
+      "emailSubject": {
+          "emailAdded": "Your email was registered",
+          "workerConnected": "Worker %WORKER_NAME% connected",
+          "workerTimeout": "Worker %WORKER_NAME% stopped hashing",
+          "workerBanned": "Worker %WORKER_NAME% banned",
+          "blockFound": "Block %HEIGHT% found !",
+          "blockUnlocked": "Block %HEIGHT% unlocked !",
+          "blockOrphaned": "Block %HEIGHT% orphaned !",
+          "payment": "We sent you a payment !"
+      },
+      "emailMessage": {
+          "emailAdded": "Your email has been registered to receive pool notifications.",
+          "workerConnected": "Your worker %WORKER_NAME% for address %MINER% is now connected from ip %IP%.",
+          "workerTimeout": "Your worker %WORKER_NAME% for address %MINER% has stopped submitting hashes on %LAST_HASH%.",
+          "workerBanned": "Your worker %WORKER_NAME% for address %MINER% has been banned.",
+          "blockFound": "Block found at height %HEIGHT% by miner %MINER% on %TIME%. Waiting maturity.",
+          "blockUnlocked": "Block mined at height %HEIGHT% with %REWARD% and %EFFORT% effort on %TIME%.",
+          "blockOrphaned": "Block orphaned at height %HEIGHT% :(",
+          "payment": "A payment of %AMOUNT% has been sent to %ADDRESS% wallet."
+      },
+      "telegramMessage": {
+          "workerConnected": "Your worker _%WORKER_NAME%_ for address _%MINER%_ is now connected from ip _%IP%_.",
+          "workerTimeout": "Your worker _%WORKER_NAME%_ for address _%MINER%_ has stopped submitting hashes on _%LAST_HASH%_.",
+          "workerBanned": "Your worker _%WORKER_NAME%_ for address _%MINER%_ has been banned.",
+          "blockFound": "*Block found at height* _%HEIGHT%_ *by miner* _%MINER%_*! Waiting maturity.*",
+          "blockUnlocked": "*Block mined at height* _%HEIGHT%_ *with* _%REWARD%_ *and* _%EFFORT%_ *effort on* _%TIME%_*.*",
+          "blockOrphaned": "*Block orphaned at height* _%HEIGHT%_ *:(*",
+          "payment": "A payment of _%AMOUNT%_ has been sent."
+      }
+  },
+
+  "email": {
+      "enabled": false,
+      "fromAddress": "system@pool.deepminerz.com",
+      "transport": "sendmail",
+      "sendmail": {
+          "path": "/usr/sbin/sendmail"
+      },
+      "smtp": {
+          "host": "smtp.example.com",
+          "port": 587,
+          "secure": false,
+          "auth": {
+              "user": "username",
+              "pass": "password"
+          },
+          "tls": {
+              "rejectUnauthorized": false
+          }
+      },
+      "mailgun": {
+          "key": "your-private-key",
+          "domain": "mg.yourdomain"
+      }
+  },
+
+  "telegram": {
+      "enabled": false,
+      "token": "",
+      "channel": "",
+      "channelStats": {
+          "enabled": false,
+          "interval": 30
+      },
+      "botCommands": {
+          "stats": "/stats",
+          "enable": "/enable",
+          "disable": "/disable"
+      }
+  },
+  
+  "monitoring": {
+      "daemon": {
+          "checkInterval": 60,
+          "rpcMethod": "getblockcount"
+      },
+      "wallet": {
+          "checkInterval": 60,
+          "rpcMethod": "getbalance"
+      }
+  },
+
+  "prices": {
+      "source": "coinpaprika",
+      "currency": "USD"
+  },
+
+  "charts": {
+      "pool": {
+          "hashrate": {
+              "enabled": true,
+              "updateInterval": 60,
+              "stepInterval": 1800,
+              "maximumPeriod": 86400
+          },
+          "miners": {
+              "enabled": true,
+              "updateInterval": 60,
+              "stepInterval": 1800,
+              "maximumPeriod": 86400
+          },
+          "workers": {
+              "enabled": true,
+              "updateInterval": 60,
+              "stepInterval": 1800,
+              "maximumPeriod": 86400
+          },
+          "difficulty": {
+              "enabled": true,
+              "updateInterval": 1800,
+              "stepInterval": 10800,
+              "maximumPeriod": 604800
+          },
+          "price": {
+              "enabled": true,
+              "updateInterval": 1800,
+              "stepInterval": 10800,
+              "maximumPeriod": 604800
+          },
+          "profit": {
+              "enabled": true,
+              "updateInterval": 1800,
+              "stepInterval": 10800,
+              "maximumPeriod": 604800
+          }
+      },
+      "user": {
+          "hashrate": {
+              "enabled": true,
+              "updateInterval": 180,
+              "stepInterval": 1800,
+              "maximumPeriod": 86400
+          },
+          "worker_hashrate": {
+              "enabled": true,
+              "updateInterval": 60,
+              "stepInterval": 60,
+              "maximumPeriod": 86400
+          },
+          "payments": {
+              "enabled": true
+          }
+      },
+      "blocks": {
+          "enabled": true,
+          "days": 30
+      }
+  }
+}
