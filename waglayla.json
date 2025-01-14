@@ -1,5 +1,5 @@
 {
-  "poolHost": "wagpool.deepminerz.com",
+  "poolHost": "walapool.deepminerz.com",
   "poolIdent": "UK",
   "coin": "WagLayla",
   "symbol": "WALA",
@@ -37,9 +37,9 @@
       "intAddressPrefix": null,
       "blockRefreshInterval": 250,
       "minerTimeout": 600,
-      "sslCert": "/etc/letsencrypt/live/wagpool.deepminerz.com/cert.pem",
-      "sslKey": "/etc/letsencrypt/live/wagpool.deepminerz.com/privkey.pem",
-      "sslCA": "/etc/letsencrypt/live/wagpool.deepminerz.com/fullchain.pem",
+      "sslCert": "/etc/letsencrypt/live/walapool.deepminerz.com/cert.pem",
+      "sslKey": "/etc/letsencrypt/live/walapool.deepminerz.com/privkey.pem",
+      "sslCA": "/etc/letsencrypt/live/walapool.deepminerz.com/fullchain.pem",
       "ports": [
           {
               "port": 3334,
@@ -142,9 +142,9 @@
       "password": "******",
       "ssl": true,
       "sslPort": 8076,
-      "sslCert": "/etc/letsencrypt/live/wagpool.deepminerz.com/cert.pem",
-      "sslKey": "/etc/letsencrypt/live/wagpool.deepminerz.com/privkey.pem",
-      "sslCA": "/etc/letsencrypt/live/wagpool.deepminerz.com/fullchain.pem",
+      "sslCert": "/etc/letsencrypt/live/walapool.deepminerz.com/cert.pem",
+      "sslKey": "/etc/letsencrypt/live/walapool.deepminerz.com/privkey.pem",
+      "sslCA": "/etc/letsencrypt/live/walapool.deepminerz.com/fullchain.pem",
       "trustProxyIP": true
   },
 
