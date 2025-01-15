@@ -14,8 +14,8 @@
   "cnVariant": 0,
   "cnBlobType": 1,
   
-  "walaserviceIp": "127.0.0.1",
-  "walaservicePort": 8045,
+  "serviceIp": "127.0.0.1",
+  "servicePort": 8045,
   "logging": {
       "files": {
           "level": "info",
@@ -33,7 +33,7 @@
       "enabled": true,
 "mergedMining": false,
       "clusterForks": "auto",
-      "poolAddress": "waglayla:qqwclrhcwtp6sv2yhxyt96v82hzp8tcag59wzcrf97axwast9sf4qfyk0cul3",
+      "poolAddress": "waglayla:qr6h2tqwx8ad57nkte9kvcd9cqyjfgk30gznnza9jte7qzfa6gu0xy5n3evj5",
       "intAddressPrefix": null,
       "blockRefreshInterval": 250,
       "minerTimeout": 600,
@@ -150,12 +150,12 @@
 
   "daemon": {
       "host": "127.0.0.1",
-      "port": 12110
+      "port": 13110
   },
 
   "wallet": {
       "host": "127.0.0.1",
-      "port": 13110
+      "port": 12110
   },
 
   "redis": {

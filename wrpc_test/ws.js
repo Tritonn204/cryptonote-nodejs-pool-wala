@@ -16,8 +16,16 @@ const rpc = new RpcClient({
 
 (async () => {
   try {
-    rpc.addEventListener("block-added", (event) => {
-      console.log("Received new block added:", event.data);
+    rpc.addEventListener("block-added", async (event) => {
+      // console.log("Received new block added:", event.data);
+      try {
+        const blockTemplate = await rpc.getBlockTemplate({
+          payAddress: "waglayla:qr6h2tqwx8ad57nkte9kvcd9cqyjfgk30gznnza9jte7qzfa6gu0xy5n3evj5"
+        });
+        console.log("Block template received:", blockTemplate);
+      } catch (e) {
+        console.log("Error fetching template:", e)
+      }
     });
 
     rpc.addEventListener("connect", async (event) => {
