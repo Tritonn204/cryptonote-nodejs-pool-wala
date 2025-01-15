@@ -47,22 +47,6 @@
 			"pubAddressPrefix": null,
 			"intAddressPrefix": null,
 			"subAddressPrefix": null,
-			"coin": "Turtlecoin",
-			"childDaemon": {
-				"host": "1.2.3.4",
-				"port": 11898
-			},
-			"pattern": "^TRTL",
-			"blockchainExplorer": "https://explorer.turtlecoin.lol/block.html?hash={id}",
-			"transactionExplorer": "https://explorer.turtlecoin.lol/block.html?hash={id}",
-			"api": "https://your.pool.host/apiMerged2",
-			"enabled": true
-                    },
-		{
-			"poolAddress": "** Your pool wallet address **",
-			"pubAddressPrefix": null,
-			"intAddressPrefix": null,
-			"subAddressPrefix": null,
 			"coin": "Plenteum",
 			"childDaemon": {
 				"host": "1.2.3.4",

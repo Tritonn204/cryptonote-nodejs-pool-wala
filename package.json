@@ -1,11 +1,11 @@
 {
-	"name": "cryptonote-nodejs-pool",
+	"name": "kas-nodejs-pool",
 	"version": "1.4.1",
 	"license": "GPL-2.0",
-	"author": "Daniel Vandal",
+	"author": "Anthony Tritonn",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
+		"url": "git+https://github.com/Tritonn204/kas-nodejs-pool.git"
 	},
 	"dependencies": {
 		"async": "^1.5.2",
@@ -13,6 +13,7 @@
 		"bignum": "*",
 		"bufferutil": "*",
 		"cli-color": "*",
+		"kaspa-wasm": "*",
 		"cryptoforknote-util": "git+https://github.com/MoneroOcean/node-cryptoforknote-util.git",
 		"cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git",
 		"dateformat": "^4.5.1",
@@ -24,10 +25,22 @@
 		"redis": "*",
 		"socket.io": "^3.1.1",
 		"time-ago": "*",
-		"turtlecoin-multi-hashing": "git+https://github.com/turtlecoin/turtlecoin-crypto.git",
 		"utf-8-validate": "*"
 	},
 	"engines": {
 		"node": ">=8.11.3"
-	}
+	},
+	"description": "cryptonote-nodejs-pool\r ======================",
+	"main": "init.js",
+	"directories": {
+		"doc": "docs",
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bugs": {
+		"url": "https://github.com/Tritonn204/kas-nodejs-pool/issues"
+	},
+	"homepage": "https://github.com/Tritonn204/kas-nodejs-pool#readme"
 }
