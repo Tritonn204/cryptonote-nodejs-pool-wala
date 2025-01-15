@@ -13,6 +13,15 @@ var os = require('os');
 // Load configuration
 require('./lib/configReader.js');
 
+const privateKeyHex = process.env.PRIVATE_KEY;
+
+if (!privateKeyHex) {
+    console.error("Private key is missing. Please set the PRIVATE_KEY environment variable.");
+    process.exit(1);
+}
+
+global.privateKey = new PrivateKey(privateKeyHex);
+
 // Load log system
 require('./lib/logger.js');
 
@@ -173,6 +182,35 @@ function checkRedisVersion(callback) {
   });
 }
 
+// Initialize the wallet and start it if necessary
+async function startWallet() {
+  try {
+    if (!global.Wallet.isOpen) {
+      await global.Wallet.start();  // Use the start() method if the wallet isn't open
+      log('info', logSystem, 'Wallet started successfully.');
+    }
+
+    // Ensure the wallet is synced
+    if (!global.Wallet.isSynced) {
+      log('info', logSystem, 'Waiting for wallet to sync...');
+      await waitForSync(); // Function to wait until wallet is synced
+      log('info', logSystem, 'Wallet is synced.');
+    }
+
+  } catch (error) {
+    log('error', logSystem, 'Failed to start wallet: %j', [error]);
+    process.exit(1);
+  }
+}
+
+// A simple function to wait for syncing to complete
+async function waitForSync() {
+  while (!global.Wallet.isSynced) {
+    log('info', logSystem, 'Waiting for sync...');
+    await new Promise(resolve => setTimeout(resolve, 5000)); // Check every 5 seconds
+  }
+}
+
 /**
  * Spawn pool workers module
  **/
@@ -295,7 +333,6 @@ function spawnChildDaemons() {
     }
   }, 10);
 }
-
 
 /**
  * Spawn daemon module
