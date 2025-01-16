@@ -10,9 +10,7 @@
   "transactionExplorer": "https://explorer.waglayla.com/txs/{id}",
 
   "daemonType": "default",
-  "cnAlgorithm": "walahash",
-  "cnVariant": 0,
-  "cnBlobType": 1,
+  "algorithm": "walahash",
   
   "serviceIp": "127.0.0.1",
   "servicePort": 8045,
@@ -59,8 +57,8 @@
           {
               "port": 9850,
               "difficulty": 14,
-              "desc": "SSL port - All Miners",
-              "ssl": true
+              "desc": "SSL port - All Miners (TODO make true ssl)",
+              "ssl": false
           },
           {
               "port": 19850,
@@ -140,7 +138,7 @@
       "blocks": 30,
       "payments": 30,
       "password": "******",
-      "ssl": true,
+      "ssl": false,
       "sslPort": 8076,
       "sslCert": "/etc/letsencrypt/live/walapool.deepminerz.com/cert.pem",
       "sslKey": "/etc/letsencrypt/live/walapool.deepminerz.com/privkey.pem",
