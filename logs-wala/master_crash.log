@@ -4955,3 +4955,37 @@ ReferenceError: getTemplate is not defined
     at real (F:\git\kas-nodejs-pool\util\waglayla\waglayla.js:250:20)
     at node:internal/process/task_queues:140:7
 
+2025-01-16 08:15:20
+F:\git\kas-nodejs-pool\lib\daemon.js:22
+    log('info', logSystem, ["Block template received, DAA:" blockTemplate.block.header.daaScore]);
+                                                            ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:78:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+2025-01-16 08:15:20
+F:\git\kas-nodejs-pool\lib\daemon.js:22
+    log('info', logSystem, ["Block template received, DAA:" blockTemplate.block.header.daaScore]);
+                                                            ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:78:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
