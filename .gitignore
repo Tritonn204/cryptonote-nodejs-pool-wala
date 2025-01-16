@@ -1,8 +1,8 @@
 config.json
 /node_modules
 node_modules/
-logs/
-/logs
+logs*/
+/logs*
 cert.pem
 chain.pem
 fullchain.pem
