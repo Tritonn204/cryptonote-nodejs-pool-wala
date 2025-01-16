@@ -33,7 +33,7 @@
       "enabled": true,
 "mergedMining": false,
       "clusterForks": "auto",
-      "poolAddress": "waglayla:qqwclrhcwtp6sv2yhxyt96v82hzp8tcag59wzcrf97axwast9sf4qfyk0cul3",
+      "poolAddress": "waglayla:qqcnx8af93hn5pl840lcw86q0re003qxskndj7cpq8e83c6ydlyg5rmynpp4u",
       "intAddressPrefix": null,
       "blockRefreshInterval": 250,
       "minerTimeout": 600,
@@ -124,9 +124,9 @@
       "enabled": true,
       "interval": 30,
       "depth": 60,
-      "poolFee": 0.5,
+      "poolFee": 0.66,
       "finderReward": 0.25,
-      "devDonation": 0.1,
+      "devDonation": 0.2,
       "networkFee": 0.00015,
       "fixBlockHeightRPC": false
   },
@@ -161,7 +161,7 @@
   "redis": {
       "host": "127.0.0.1",
       "port": 6379,
-      "auth": "**********",
+      "auth": "*********",
       "db": 0,
       "cleanupInterval": 90
   },

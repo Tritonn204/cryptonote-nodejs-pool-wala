@@ -9,23 +9,21 @@
 	},
 	"dependencies": {
 		"async": "^1.5.2",
-		"base58-native": "*",
-		"bignum": "*",
+		"bs58": "*",
 		"bufferutil": "*",
 		"cli-color": "*",
-		"kaspa-wasm": "*",
-		"cryptoforknote-util": "git+https://github.com/MoneroOcean/node-cryptoforknote-util.git",
-		"cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git",
 		"dateformat": "^4.5.1",
 		"domexception": "*",
+		"dotenv": "^16.4.7",
 		"mailgun.js": "*",
 		"node-telegram-bot-api": "*",
 		"nodemailer": "^6.4.18",
 		"nodemailer-sendmail-transport": "*",
 		"redis": "*",
-		"socket.io": "^3.1.1",
+		"socket.io": "^4.8.1",
 		"time-ago": "*",
-		"utf-8-validate": "*"
+		"utf-8-validate": "*",
+		"websocket": "^1.0.35"
 	},
 	"engines": {
 		"node": ">=8.11.3"

@@ -1,0 +1,1185 @@
+2025-01-16 05:52:44
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 05:53:57
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 05:56:41
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 05:57:47
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 05:58:11
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 05:58:17
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:04:30
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:07:01
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:07:13
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:09:50
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:11:28
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:11:59
+/mnt/f/git/kas-nodejs-pool/node_modules/redis/dist/index.js:42
+            ...options?.modules
+                       ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:85:18)
+    at Object.<anonymous> (/mnt/f/git/kas-nodejs-pool/init.js:46:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+
+2025-01-16 06:12:13
+/mnt/f/git/kas-nodejs-pool/node_modules/redis/dist/index.js:42
+            ...options?.modules
+                       ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:85:18)
+    at Object.<anonymous> (/mnt/f/git/kas-nodejs-pool/init.js:46:13)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+
+2025-01-16 06:12:41
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:14:55
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:19:36
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:159:15)
+    at init (F:\git\kas-nodejs-pool\init.js:114:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:153:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:21:14
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:179:15)
+    at init (F:\git\kas-nodejs-pool\init.js:134:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:173:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:22:43
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:179:15)
+    at init (F:\git\kas-nodejs-pool\init.js:134:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:173:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:24:33
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:179:15)
+    at init (F:\git\kas-nodejs-pool\init.js:134:3)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:173:3)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+
+2025-01-16 06:25:14
+TypeError: Invalid argument type
+    at encodeCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:17:19)
+    at RedisCommandsQueue.getCommandToSend (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\commands-queue.js:138:45)
+    at Commander._RedisClient_tick (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:545:76)
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:532:82)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:181:15)
+    at init (F:\git\kas-nodejs-pool\init.js:136:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2025-01-16 06:25:34
+TypeError: Invalid argument type
+    at encodeCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:17:19)
+    at RedisCommandsQueue.getCommandToSend (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\commands-queue.js:138:45)
+    at Commander._RedisClient_tick (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:545:76)
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:532:82)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:181:15)
+    at init (F:\git\kas-nodejs-pool\init.js:136:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2025-01-16 06:33:02
+TypeError: Invalid argument type
+    at encodeCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:17:19)
+    at RedisCommandsQueue.getCommandToSend (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\commands-queue.js:138:45)
+    at Commander._RedisClient_tick (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:545:76)
+    at Commander._RedisClient_sendCommand (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:532:82)
+    at Commander.commandsExecutor (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at BaseClass.<computed> [as info] (F:\git\kas-nodejs-pool\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at checkRedisVersion (F:\git\kas-nodejs-pool\init.js:179:15)
+    at init (F:\git\kas-nodejs-pool\init.js:132:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\api.js:15:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:94:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\blockUnlocker.js:11:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:88:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\charts.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\chartsDataCollector.js:13:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\paymentProcessor.js:12:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:91:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+undefined
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:34
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:50
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\paymentProcessor.js:12:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:91:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:50
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:50
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:50
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\charts.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\chartsDataCollector.js:13:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:50
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:36:50
+undefined
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\blockUnlocker.js:11:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:88:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\paymentProcessor.js:12:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:91:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+undefined
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\api.js:15:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:94:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\charts.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\chartsDataCollector.js:13:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:37:01
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:79:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:13
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:13
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:13
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\charts.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\chartsDataCollector.js:13:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\paymentProcessor.js:12:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:87:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+undefined
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\blockUnlocker.js:11:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:84:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\api.js:15:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:90:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\pool.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:75:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:38:14
+undefined
+
+2025-01-16 06:38:15
+undefined
+
+2025-01-16 06:38:15
+undefined
+
+2025-01-16 06:38:16
+undefined
+
+2025-01-16 06:39:00
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\charts.js:14:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\chartsDataCollector.js:13:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:39:00
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\api.js:15:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:90:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:39:00
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\paymentProcessor.js:12:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:87:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:39:00
+TypeError: require(...) is not a function
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\lib\blockUnlocker.js:11:50)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (F:\git\kas-nodejs-pool\init.js:84:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+2025-01-16 06:39:01
+undefined
+
+2025-01-16 06:40:05
+undefined
+
+2025-01-16 06:40:06
+undefined
+
+2025-01-16 06:40:06
+undefined
+

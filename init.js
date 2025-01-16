@@ -9,6 +9,9 @@
 var fs = require('fs');
 var cluster = require('cluster');
 var os = require('os');
+require('dotenv').config();
+
+globalThis.WebSocket = require("websocket").w3cwebsocket;
 
 // Load configuration
 require('./lib/configReader.js');
@@ -30,7 +33,7 @@ var logSystem = 'master';
 require('./lib/exceptionWriter.js')(logSystem);
 
 // Pool informations
-log('info', logSystem, 'Starting Cryptonote Node.JS pool version %s', [version]);
+log('info', logSystem, 'Starting KAS Node.JS pool version %s', [version]);
 
 // Check configuration data
 var poolAddress = config.poolServer.poolAddress || null;
@@ -45,7 +48,19 @@ var redis = require('redis');
 var redisDB = (config.redis.db && config.redis.db > 0) ? config.redis.db : 0;
 global.redisClient = redis.createClient(config.redis.port, config.redis.host, {
   db: redisDB,
-  auth_pass: config.redis.auth
+  // auth_pass: config.redis.auth
+});
+
+global.redisClient.on('connect', () => {
+  log('info', logSystem, 'Redis client connected successfully');
+});
+
+global.redisClient.on('error', (err) => {
+  log('error', logSystem, 'Redis connection error:', err);
+});
+
+global.redisClient.on('end', () => {
+  log('info', logSystem, 'Redis client disconnected');
 });
 
 if ((typeof config.poolServer.mergedMining !== 'undefined' && config.poolServer.mergedMining) && typeof config.childPools !== 'undefined')
@@ -107,79 +122,86 @@ var singleModule = (function () {
 /**
  * Start modules
  **/
-(function init() {
-  checkRedisVersion(function () {
-    if (singleModule) {
-      log('info', logSystem, 'Running in single module mode: %s', [singleModule]);
+(async function init() {
+  await global.redisClient.connect();
+  await checkRedisVersion();
 
-      switch (singleModule) {
-        case 'daemon':
-          spawnDaemon()
-          break
-        case 'pool':
-          spawnPoolWorkers();
-          break;
-        case 'unlocker':
-          spawnBlockUnlocker();
-          break;
-        case 'payments':
-          spawnPaymentProcessor();
-          break;
-        case 'api':
-          spawnApi();
-          break;
-        case 'chartsDataCollector':
-          spawnChartsDataCollector();
-          break;
-        case 'telegramBot':
-          spawnTelegramBot();
-          break;
-      }
-    } else {
-      spawnPoolWorkers();
-      spawnDaemon();
-      if (config.poolServer.mergedMining)
-        spawnChildDaemons();
-      spawnBlockUnlocker();
-      spawnPaymentProcessor();
-      spawnApi();
-      spawnChartsDataCollector();
-      spawnTelegramBot();
+  if (singleModule) {
+    log('info', logSystem, 'Running in single module mode: %s', [singleModule]);
+
+    switch (singleModule) {
+      case 'daemon':
+        spawnDaemon()
+        break
+      case 'pool':
+        spawnPoolWorkers();
+        break;
+      case 'unlocker':
+        spawnBlockUnlocker();
+        break;
+      case 'payments':
+        spawnPaymentProcessor();
+        break;
+      case 'api':
+        spawnApi();
+        break;
+      case 'chartsDataCollector':
+        spawnChartsDataCollector();
+        break;
+      case 'telegramBot':
+        spawnTelegramBot();
+        break;
     }
-  });
+  } else {
+    log('info', logSystem, 'Running all modules');
+    spawnPoolWorkers();
+    spawnDaemon();
+    if (config.poolServer.mergedMining)
+      spawnChildDaemons();
+    spawnBlockUnlocker();
+    spawnPaymentProcessor();
+    spawnApi();
+    spawnChartsDataCollector();
+    spawnTelegramBot();
+  }
 })();
 
 /**
  * Check redis database version
  **/
-function checkRedisVersion(callback) {
-  redisClient.info(function (error, response) {
-    if (error) {
-      log('error', logSystem, 'Redis version check failed');
-      return;
-    }
-    var parts = response.split('\r\n');
-    var version;
-    var versionString;
-    for (var i = 0; i < parts.length; i++) {
-      if (parts[i].indexOf(':') !== -1) {
-        var valParts = parts[i].split(':');
-        if (valParts[0] === 'redis_version') {
-          versionString = valParts[1];
+async function checkRedisVersion() {
+  try {
+    // Fetch full INFO
+    const response = await redisClient.info();
+    
+    // Parse the response to find `redis_version`
+    const parts = response.split('\r\n');
+    let version;
+    let versionString;
+
+    for (const line of parts) {
+      if (line.includes(':')) {
+        const [key, value] = line.split(':');
+        if (key === 'redis_version') {
+          versionString = value;
           version = parseFloat(versionString);
           break;
         }
       }
     }
+
     if (!version) {
-      log('error', logSystem, 'Could not detect redis version - must be super old or broken');
-      return;
+      log('error', logSystem, 'Could not detect Redis version - must be super old or broken.');
     } else if (version < 2.6) {
-      log('error', logSystem, "You're using redis version %s the minimum required version is 2.6. Follow the damn usage instructions...", [versionString]);
-      return;
+      log('error', logSystem,
+        `You're using Redis version ${versionString}. The minimum required version is 2.6.`
+      );
+    } else {
+      log('info', logSystem, `Redis version ${versionString} detected and valid.`);
     }
-    callback();
-  });
+  } catch (error) {
+    log('error', logSystem, 'Redis version check failed:', error.message);
+  }
 }
 
 // Initialize the wallet and start it if necessary

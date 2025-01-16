@@ -8,3 +8,4 @@ chain.pem
 fullchain.pem
 privkey.pem
 package-lock.json
+.env
