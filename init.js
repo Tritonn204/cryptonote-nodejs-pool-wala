@@ -154,15 +154,15 @@ var singleModule = (function () {
     }
   } else {
     log('info', logSystem, 'Running all modules');
-    spawnPoolWorkers();
+    // spawnPoolWorkers();
     spawnDaemon();
-    if (config.poolServer.mergedMining)
-      spawnChildDaemons();
-    spawnBlockUnlocker();
-    spawnPaymentProcessor();
-    spawnApi();
-    spawnChartsDataCollector();
-    spawnTelegramBot();
+    // if (config.poolServer.mergedMining)
+    //   spawnChildDaemons();
+    // spawnBlockUnlocker();
+    // spawnPaymentProcessor();
+    // spawnApi();
+    // spawnChartsDataCollector();
+    // spawnTelegramBot();
   }
 })();
 

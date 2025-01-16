@@ -15,6 +15,7 @@
 		"dateformat": "^4.5.1",
 		"domexception": "*",
 		"dotenv": "^16.4.7",
+		"json-bigint": "^1.0.0",
 		"mailgun.js": "*",
 		"node-telegram-bot-api": "*",
 		"nodemailer": "^6.4.18",
