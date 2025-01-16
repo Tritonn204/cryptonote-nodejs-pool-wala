@@ -5,6 +5,10 @@
  * Pool initialization script
  **/
 
+// Input structure
+// PRE_POW_HASH || TIME || 32 zero byte padding || NONCE
+// 0-31            32-39   40-71                   72-79
+
 // Load needed modules
 var fs = require('fs');
 var cluster = require('cluster');
@@ -12,6 +16,7 @@ var os = require('os');
 require('dotenv').config();
 
 globalThis.WebSocket = require("websocket").w3cwebsocket;
+globalThis.JSONbig = require('json-bigint')({ useNativeBigInt: true });
 
 // Load configuration
 require('./lib/configReader.js');
