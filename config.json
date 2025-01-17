@@ -5,7 +5,7 @@
   "symbol": "WALA",
   "coinUnits": 1000000000,
   "coinDecimalPlaces": 9,
-  "coinDifficultyTarget": 120,
+  "coinDifficultyTarget": 1,
   "blockchainExplorer": "https://explorer.waglayla.com/blocks/{id}",
   "transactionExplorer": "https://explorer.waglayla.com/txs/{id}",
 
