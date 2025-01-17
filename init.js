@@ -28,7 +28,7 @@ if (!privateKeyHex) {
     process.exit(1);
 }
 
-global.privateKey = new PrivateKey(privateKeyHex);
+global.privateKey = new coinSDK.PrivateKey(privateKeyHex);
 
 // Load log system
 require('./lib/logger.js');
@@ -61,7 +61,7 @@ global.redisClient.on('connect', () => {
 });
 
 global.redisClient.on('error', (err) => {
-  log('error', logSystem, 'Redis connection error:', err);
+  log('error', logSystem, 'Redis connection error: %s', [err]);
 });
 
 global.redisClient.on('end', () => {
@@ -384,7 +384,8 @@ function spawnDaemon() {
               if (cluster.workers[id].type === 'pool') {
                 cluster.workers[id].send({
                   type: 'BlockTemplate',
-                  block: msg.block
+                  block: msg.block,
+                  jobId: msg.jobId,
                 });
               }
             });

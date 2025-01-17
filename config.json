@@ -41,7 +41,7 @@
       "ports": [
           {
               "port": 3334,
-              "difficulty": 2,
+              "difficulty": 0.01,
               "desc": "Individual Miners ( 0-3 GH/s )"
           },
           {
