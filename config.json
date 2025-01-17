@@ -46,31 +46,26 @@
           },
           {
               "port": 4445,
-              "difficulty": 14,
+              "difficulty": 24,
               "desc": "Small Farms ( 15-20 GH/s )"
           },
           {
               "port": 5556,
-              "difficulty": 64,
+              "difficulty": 81,
               "desc": "Medium-Large Farms ( > 100 GH/s )"
           },
           {
               "port": 9850,
-              "difficulty": 14,
-              "desc": "SSL port - All Miners (TODO make true ssl)",
+              "difficulty": 24,
+              "desc": "SSL Stratum (TODO make true ssl)",
               "ssl": false
-          },
-          {
-              "port": 19850,
-              "difficulty": 64,
-              "desc": "Alternative Medium-Large Farms"
           }
       ],
       "varDiff": {
           "minDiff": 1,
           "maxDiff": 100000000,
           "targetTime": 15,
-          "retargetTime": 10,
+          "retargetTime": 30,
           "variancePercent": 30,
           "maxJump": 100
       },

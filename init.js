@@ -163,8 +163,8 @@ var singleModule = (function () {
     spawnDaemon();
     // if (config.poolServer.mergedMining)
     //   spawnChildDaemons();
-    // spawnBlockUnlocker();
-    // spawnPaymentProcessor();
+    spawnBlockUnlocker();
+    spawnPaymentProcessor();
     // spawnApi();
     // spawnChartsDataCollector();
     // spawnTelegramBot();
