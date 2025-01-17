@@ -41,7 +41,7 @@
       "ports": [
           {
               "port": 3334,
-              "difficulty": 0.01,
+              "difficulty": 2,
               "desc": "Individual Miners ( 0-3 GH/s )"
           },
           {
@@ -69,7 +69,7 @@
       "varDiff": {
           "minDiff": 1,
           "maxDiff": 100000000,
-          "targetTime": 10,
+          "targetTime": 15,
           "retargetTime": 10,
           "variancePercent": 30,
           "maxJump": 100
