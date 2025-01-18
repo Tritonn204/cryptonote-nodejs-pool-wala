@@ -104,13 +104,13 @@
       "maxAddresses": 250,
       "mixin": 0,
       "priority": 0,
-      "transferFee": 1000000,
+      "transferFee": 0.1,
       "dynamicTransferFee": true,
       "minerPayFee" : true,
-      "minPayment": 1000000000,
-      "maxPayment": 20000000000000,
-      "maxTransactionAmount": 30000000000000,
-      "denomination": 10000000
+      "minPayment": 1.0,
+      "maxPayment": 250000.0,
+      "maxTransactionAmount": 10000000.0,
+      "denomination": 0.01
   },
 
   "blockUnlocker": {
