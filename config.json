@@ -115,7 +115,7 @@
 
   "blockUnlocker": {
       "enabled": true,
-      "interval": 30,
+      "interval": 1,
       "depth": 60,
       "poolFee": 0.66,
       "finderReward": 0.25,
