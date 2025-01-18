@@ -11,7 +11,7 @@ let {
 const rpc = new RpcClient({
   url: 'ws://127.0.0.1:13110',
   encoding: Encoding.Borsh,
-  network: 'mainnet'
+  network: config.networkId
 });
 
 (async () => {

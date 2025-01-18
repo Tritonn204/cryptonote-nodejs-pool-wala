@@ -3,6 +3,7 @@
   "poolIdent": "UK",
   "coin": "WagLayla",
   "symbol": "WALA",
+  "networkId": "mainnet",
   "coinUnits": 1000000000,
   "coinDecimalPlaces": 9,
   "coinDifficultyTarget": 1,
@@ -115,7 +116,7 @@
 
   "blockUnlocker": {
       "enabled": true,
-      "interval": 1,
+      "interval": 30,
       "depth": 60,
       "poolFee": 0.66,
       "finderReward": 0.25,
