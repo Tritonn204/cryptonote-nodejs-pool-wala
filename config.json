@@ -31,7 +31,7 @@
   "poolServer": {
       "enabled": true,
 "mergedMining": false,
-      "clusterForks": "auto",
+      "clusterForks": 8,
       "poolAddress": "waglayla:qqcnx8af93hn5pl840lcw86q0re003qxskndj7cpq8e83c6ydlyg5rmynpp4u",
       "intAddressPrefix": null,
       "blockRefreshInterval": 250,
@@ -127,7 +127,7 @@
 
   "api": {
       "enabled": true,
-      "hashrateWindow": 600,
+      "hashrateWindow": 300,
       "updateInterval": 5,
       "port": 8075,
       "blocks": 30,
