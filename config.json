@@ -4,7 +4,7 @@
   "coin": "WagLayla",
   "symbol": "WALA",
   "networkId": "mainnet",
-  "coinUnits": 1000000000,
+  "coinUnits": 100000000,
   "coinDecimalPlaces": 9,
   "coinDifficultyTarget": 1,
   "blockchainExplorer": "https://explorer.waglayla.com/blocks/{id}",
@@ -119,7 +119,7 @@
       "interval": 30,
       "depth": 60,
       "poolFee": 0.66,
-      "finderReward": 0.25,
+      "finderReward": 25,
       "devDonation": 0.2,
       "networkFee": 0.00015,
       "fixBlockHeightRPC": false
