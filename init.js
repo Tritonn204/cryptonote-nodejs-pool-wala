@@ -21,14 +21,17 @@ globalThis.JSONbig = require('json-bigint')({ useNativeBigInt: true });
 // Load configuration
 require('./lib/configReader.js');
 
-const privateKeyHex = process.env.PRIVATE_KEY;
-
-if (!privateKeyHex) {
-    console.error("Private key is missing. Please set the PRIVATE_KEY environment variable.");
-    process.exit(1);
+if (!seedPhrase) {
+  console.error("Seed phrase key is missing. Please set the appropriate environment variable.");
+  process.exit(1);
 }
 
-global.privateKey = new coinSDK.PrivateKey(privateKeyHex);
+const mnemonic = new coinSDK.Mnemonic(seedPhrase);
+const xprv = new coinSDK.XPrv(mnemonic.toSeed());
+const generator = new coinSDK.PrivateKeyGenerator(
+  xprv, false, 0n
+);
+global.privateKey = generator.receiveKey(0);
 
 // Load log system
 require('./lib/logger.js');
