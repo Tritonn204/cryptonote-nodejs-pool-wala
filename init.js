@@ -168,7 +168,7 @@ var singleModule = (function () {
     //   spawnChildDaemons();
     spawnBlockUnlocker();
     spawnPaymentProcessor();
-    // spawnApi();
+    spawnApi();
     // spawnChartsDataCollector();
     // spawnTelegramBot();
   }

@@ -129,7 +129,6 @@
       "enabled": true,
       "hashrateWindow": 600,
       "updateInterval": 5,
-      "bindIp": "198.244.169.253",
       "port": 8075,
       "blocks": 30,
       "payments": 30,
