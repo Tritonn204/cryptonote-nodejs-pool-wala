@@ -117,9 +117,9 @@
   "blockUnlocker": {
       "enabled": true,
       "interval": 30,
-      "depth": 60,
+      "depth": 120,
       "poolFee": 0.66,
-      "finderReward": 25,
+      "finderReward": 5,
       "devDonation": 0.2,
       "networkFee": 0.00015,
       "fixBlockHeightRPC": false
