@@ -149,6 +149,7 @@ function pulseLiveUpdate(){
 
 // Update live informations
 function updateLiveStats(data, key) {
+    console.log(JSON.stringify(data));
     pulseLiveUpdate();
     if (key !== parentCoin) {
         mergedStats[key] = data;

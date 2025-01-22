@@ -169,7 +169,7 @@ var singleModule = (function () {
     spawnBlockUnlocker();
     spawnPaymentProcessor();
     spawnApi();
-    // spawnChartsDataCollector();
+    spawnChartsDataCollector();
     // spawnTelegramBot();
   }
 })();

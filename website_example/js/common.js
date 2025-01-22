@@ -2184,7 +2184,7 @@ function sortElementList(container, siblings,  stats) {
 
 
 function home_InitTemplate(parentStats, siblingStats) {
-    $('#networkLastBlockFound').timeago('update', new Date(parentStats.lastblock.timestamp * 1000).toISOString());
+    $('#networkLastBlockFound').timeago('update', new Date(parentStats.network.pastMedianTime * 1000).toISOString());
 
     let coin = parentStats.config.coin
     let minerInfo = []

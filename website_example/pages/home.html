@@ -247,7 +247,7 @@ currentPage = {
     },
     update: function(updateKey){
         if (lastStats)
-            $('#networkLastBlockFound').timeago('update', new Date(lastStats.lastblock.timestamp * 1000).toISOString());
+            $('#networkLastBlockFound').timeago('update', new Date(lastStats.network.pastMedianTime * 1000).toISOString());
 
         let stats = updateKey === parentCoin ? lastStats : mergedStats[updateKey]
         if (stats) {
