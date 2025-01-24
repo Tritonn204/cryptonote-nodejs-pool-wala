@@ -1,5 +1,5 @@
 {
-  "poolHost": "127.0.0.1",
+  "poolHost": "0.0.0.0",
   "poolIdent": "UK",
   "coin": "WagLayla",
   "addressPrefix": "waglayla:",
@@ -12,7 +12,7 @@
   "transactionExplorer": "https://explorer.waglayla.com/txs/{id}",
   "daemonType": "default",
   "algorithm": "walahash",
-  "serviceIp": "127.0.0.1",
+  "serviceIp": "0.0.0.0",
   "servicePort": 8045,
   "logging": {
     "files": {
@@ -34,7 +34,7 @@
     "poolAddress": "waglayla:qqcnx8af93hn5pl840lcw86q0re003qxskndj7cpq8e83c6ydlyg5rmynpp4u",
     "intAddressPrefix": null,
     "blockRefreshInterval": 1,
-    "minerTimeout": 600,
+    "minerTimeout": 300,
     "sslCert": "/etc/letsencrypt/live/walapool.deepminerz.com/cert.pem",
     "sslKey": "/etc/letsencrypt/live/walapool.deepminerz.com/privkey.pem",
     "sslCA": "/etc/letsencrypt/live/walapool.deepminerz.com/fullchain.pem",
@@ -134,6 +134,7 @@
     "enabled": true,
     "hashrateWindow": 300,
     "updateInterval": 1,
+    "bindIp": "0.0.0.0",
     "port": 8075,
     "blocks": 30,
     "payments": 30,
