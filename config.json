@@ -65,8 +65,8 @@
       "minDiff": 1,
       "maxDiff": 100000000,
       "targetTime": 15,
-      "retargetTime": 90,
-      "variancePercent": 30,
+      "retargetTime": 10,
+      "variancePercent": 50,
       "maxJump": 100
     },
     "paymentId": {
@@ -123,7 +123,7 @@
   "blockUnlocker": {
     "enabled": true,
     "interval": 30,
-    "depth": 300,
+    "depth": 100,
     "poolFee": 0.25,
     "finderReward": 5,
     "devDonation": 0.25,

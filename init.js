@@ -202,7 +202,7 @@ async function checkRedisVersion() {
       log('error', logSystem, 'Could not detect Redis version - must be super old or broken.');
     } else if (version < 6.2) {
       log('error', logSystem,
-        `You're using Redis version ${versionString}. The minimum required version is 2.6.`
+        `You're using Redis version ${versionString}. The minimum required version is 6.2.`
       );
     } else {
       log('info', logSystem, `Redis version ${versionString} detected and valid.`);
